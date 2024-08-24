@@ -8,9 +8,15 @@ public class classA {
     public static void classAMethod(){
         System.out.println("Branch Name: Developer Branch");
         classs();
+        classss();
     }
 
     public static void classs(){
+        System.out.println("Branch Name: Developer Branch");
+
+    }
+
+    public static void classss(){
         System.out.println("Branch Name: Developer Branch");
 
     }
