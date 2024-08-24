@@ -1,5 +1,7 @@
 import org.testng.annotations.Test;
 
+import java.util.Scanner;
+
 public class classA {
 
 
@@ -17,7 +19,21 @@ public class classA {
     }
 
     public static void classss(){
-        System.out.println("Branch Name: Developer Branch");
-
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number");
+        int num = sc.nextInt();
+        reverseNumber(num);
     }
+
+    public static void reverseNumber(int number){
+        int reverse = 0;
+        while(number!=0){
+            int digit = number % 10;
+            reverse = reverse * 10 + digit;
+            number = number/10;
+        }
+        System.out.println("Reversed number " + reverse);
+    }
+
 }
+
