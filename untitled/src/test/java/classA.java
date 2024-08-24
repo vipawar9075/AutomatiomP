@@ -6,6 +6,7 @@ public class classA {
         System.out.println("Branch Name: Developer Branch");
         classs();
     }
+    System.out.println("Branch Name: Developer Branch");
 
     public static void classs(){
         System.out.println("Branch Name: Developer Branch");
