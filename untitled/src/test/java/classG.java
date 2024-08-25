@@ -11,5 +11,6 @@ public class classG {
         String subString = sc.nextLine();
         int index = inputString.indexOf(subString);
         System.out.println("Index of sub string is: " + index);
+        System.out.println("Index of sub string is: " + index);
     }
 }

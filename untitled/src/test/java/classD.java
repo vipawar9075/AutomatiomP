@@ -21,7 +21,6 @@ public class classD {
             }
             System.out.println();
             System.out.println("Class D method executed.");
-            System.out.println("Class D method executed.");
 
         }
     }
