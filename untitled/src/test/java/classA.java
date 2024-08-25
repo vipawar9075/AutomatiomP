@@ -30,8 +30,7 @@ public class classA {
             int digit = number % 10;
             reverse = reverse * 10 + digit;
             number = number / 10;
-        }
-        System.out.println("Reversed number " + reverse);
+        }System.out.println("Reversed number " + reverse);
     }
 
 }
