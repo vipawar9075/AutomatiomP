@@ -5,12 +5,12 @@ public class classD {
     @Test
     public static void classDMethod() {
 
-//creating two matrices
+        //creating two matrices
         int a[][] = {{1, 1, 1}, {2, 2, 2}, {3, 3, 3}};
         int b[][] = {{1, 1, 1}, {2, 2, 2}, {3, 3, 3}};
-//creating another matrix to store the multiplication of two matrices
+         //creating another matrix to store the multiplication of two matrices
         int c[][] = new int[3][3];
-//multiplying and printing multiplication of 2 matrices
+          //multiplying and printing multiplication of 2 matrices
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 c[i][j] = 0;
@@ -21,6 +21,8 @@ public class classD {
             }
             System.out.println();
             System.out.println("Class D method executed.");
+            System.out.println("Class D method executed.");
+
         }
     }
 }

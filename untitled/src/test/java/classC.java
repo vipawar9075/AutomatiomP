@@ -13,6 +13,8 @@ public class classC {
             System.out.print(x);
             System.out.print("\n");
             System.out.println("Class c executed");
+            System.out.println("Class c executed");
+
         }
     }
 }
