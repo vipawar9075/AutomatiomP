@@ -14,6 +14,7 @@ public class classC {
 
     public static void method() {
         System.out.println("Factorial of " );
+        System.out.println("Squash comment");
 
     }
 }
